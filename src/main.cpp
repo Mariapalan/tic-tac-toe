@@ -87,7 +87,7 @@ int main() {
         } else if (choice == 9 && square[9] == '9') {
             square[9] = mark;
         } else {
-            cout << "Invalid move";
+            cout << "Invalid move!";
             player--;
             cin.ignore();
             cin.get();
